@@ -49,10 +49,58 @@ El SGML define e identifica las diferentes estructuras de contenido del document
  ### Algunos ejemplos y caracteristicas especificas de lenguajes :
  
 XML
-![Imagen de 
+
+![Imagen de lenguaje XML ](https://blog.hubspot.es/hs-fs/hubfs/xml%20file%20example%20storing%20names%20and%20test%20scores%20of%20students-1.png?width=650&name=xml%20file%20example%20storing%20names%20and%20test%20scores%20of%20students-1.png)
+
+* La información se dispone de forma jerárquica.
+* Los datos incorporan etiquetas y marcajes que definen a los datos, es decir, explican qué es y qué significa cada conjunto de datos.
+* Las bases de datos que utilizan XML pueden albergar diferentes tipos de datos.
+* Los datos son presentados en orden. Es decir, en un documento XML el orden en el que aparecen los elementos es el orden de los datos, lo cual no sucede en las bases de datos relacionales basadas en registros y columnas.
+
 HTML
+
+![Imagen de lenguaje HTML ](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/HTML_source_code_example.svg/300px-HTML_source_code_example.svg.png)
+
+*Es fácil de usar y entender.
+*Es utilizado para crear páginas web.
+*Permite describir hipertextos.
+*Está fundamentado por una serie de breves códigos escritos en un registro de texto por el desarrollador del sitio web.
+*Es multiplataforma, por lo que se puede acceder desde cualquier lugar y dispositivo.
+*No es necesario estar en línea para que el lenguaje HTML funcione correctamente, ya que se puede codificar una página web sin conexión alguna, es decir, es posible almacenar todo un sitio web en una computadora y luego transferir los registros a la web.
+*Todos los elementos de un documento HTML constan de una etiqueta de inicio, un bloque de texto y una etiqueta de cierre.
+*Tiene un despliegue rápido.
+*Es reconocido y admitido por cualquier tipo de explorador web.
+*Permite archivos pequeños.
+*Su lenguaje es estático.
+*Las etiquetas son limitadas.
+
+
 JSON
+
+![Imagen de lenguaje JSON ](https://www.info-computer.com/modules/dbblog/views/img/post/como-abrir-los-archivos-json.png)
+
+*Consiste en pares "clave - valor"
+*Los valores pueden cadenas, números o boleanos, así como otros objetos JSON, con cualquier nivel de anidación
+*Es un formato flexible, ligero y fácilmente transferible a través de las redes
+
 YAML
+
+![Imagen de lenguaje YAML ](https://www.redhat.com/sysadmin/sites/default/files/inline-images/emacs.jpg)
+
+*Los contenidos en YAML se describen utilizando el conjunto de caracteres imprimibles de Unicode, bien en UTF-8 o UTF-16
+
+*La estructura del documento se denota indentando con espacios en blanco; sin embargo no se permite el uso de caracteres de tabulación para sangrar
+*Los miembros de las listas se denotan encabezados por un guion con un miembro por cada línea, o bien entre corchetes y separados por coma espacio
+*Los vectores asociativos se representan usando los dos puntos seguidos por un espacio. en la forma "clave: valor", bien uno por línea o entre llaves y separados por coma seguida de espacio
+*Un valor de un vector asociativo viene precedido por un signo de interrogación, lo que permite que se construyan claves complejas sin ambigüedad
+*Los valores sencillos (o escalares) por lo general aparecen sin entrecomillar, pero pueden incluirse entre comillas dobles, o comillas simples
+*En las comillas dobles, los caracteres especiales se pueden representar con secuencias de escape similares a las del lenguaje de programación C, que comienzan con una barra invertida
+*Se pueden incluir múltiples documentos dentro de un único flujo, separándolos por tres guiones los tres puntos indican el fin de un documento dentro de un flujo
+*Los nodos repetidos se pueden denotar con un ampersand y ser referidos posteriormente usando el asterisco
+*Los comentarios vienen encabezados por la almohadilla y continúan hasta el final de la línea
+*Los nodos pueden etiquetarse con un tipo o etiqueta utilizando el signo de exclamación seguido de una cadena que puede ser expandida en una URL
+
+
 
 ## 4.- XML: definición y características del metalenguaje
 
