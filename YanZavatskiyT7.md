@@ -59,7 +59,7 @@
    ![Imagen de MD CRM](https://www.cic.es/wp-content/uploads/2018/09/crm.png)
 
 
-## 3. BI
+## 4. BI
 
 * **Definición y componentes**
 
